@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'FirebaseChat' do
+    # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+    # use_frameworks!
+    
+    # Pods for FirebaseChat
+    
+    pod 'Firebase/Core', '~> 5.11.0'
+    pod 'Firebase/Database', '~> 5.11.0'
+    
+    pod 'RNSVG', :path => '../node_modules/react-native-svg'
+    
+end
